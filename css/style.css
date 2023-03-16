@@ -1,0 +1,12 @@
+main {
+    padding: 80px 0;
+}
+
+.title {
+    text-align: center;
+    font-family: 'GmarketSansMedium',sans-serif;
+}
+
+.title h2 {
+    font-size: 1.5rem;
+}
