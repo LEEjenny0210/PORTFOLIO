@@ -1,12 +1,96 @@
 main {
-    padding: 80px 0;
+    padding: 60px 0;
+    background-image: url(/img/bg.jpg);
 }
 
 .title {
     text-align: center;
-    font-family: 'GmarketSansMedium',sans-serif;
+    font-family: 'GmarketSans',sans-serif;
 }
 
 .title h2 {
     font-size: 1.5rem;
+}
+
+.title h3 {
+    margin-top: 10px;
+}
+
+.main_img {
+    margin-top: 30px;
+}
+
+.name_conts {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.name_conts h2 span {
+    font-size: 1.5rem;
+}
+
+.name_conts p {
+    margin-top: 20px;
+    font-family: 'TheJamsilThin';
+}
+
+.icon_img01 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.invatation {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.invatation h3 {
+    font-family: 'GmarketSans',sans-serif;
+    /* font-weight: 300;  */
+    color: #bea4a4;
+    letter-spacing: 3px;
+}
+
+.invatation h2 {
+    font-size: 1.125rem;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-family: 'GmarketSans',sans-serif;
+    /* font-weight: 300; */
+}
+
+.invatation div {
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+.parents_contact {
+    margin-top: 60px;
+    text-align: center;
+    background: rgba(140,117,93,.07);
+}
+
+.parents_conts {
+    padding: 20px 0;
+    font-size: 1.125rem;
+}
+
+.men span, .woman span {
+    font-size: 12.8px;
+    color: #8a857f;
+    display: inline-block;
+}
+
+.sw {
+    width: 25PX;
+    margin: 0 auto;
+}
+
+.woman {
+    margin-top: 14px;
+}
+
+.tel {
+    color: #d8bfbf;
+    margin-left: 4px;
 }
