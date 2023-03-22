@@ -4,7 +4,7 @@ body {
     max-width: 1920px;
     height: auto;
     font-size: 14px;
-    color: #333;
+    color: #564545;
     background-color: #808080;
     overflow-x: hidden; 
 }
@@ -13,7 +13,7 @@ main {
     max-width: 430px;
     width: 100%;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #fbfbfb;
     position: relative;
 }
 
@@ -21,4 +21,25 @@ img {
     vertical-align: middle;
     width: auto;
     max-width: 100%;
+}
+
+.red {
+    color: #f54848;
+}
+
+.eng_title {
+    font-family: 'GmarketSans', sans-serif;
+    color: #bea4a4;
+    letter-spacing: 3px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.ko_title {
+    font-size: 1rem;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-family: 'GmarketSans', sans-serif;
+    color: #89757a;
+    text-align: center;
 }

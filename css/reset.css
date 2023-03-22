@@ -47,6 +47,18 @@ table {
 	border-spacing: 0;
 }
 
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tbody {
+	display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
 a {
 	text-decoration: none;
 	color: #333;

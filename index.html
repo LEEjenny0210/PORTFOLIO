@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,9 @@
     <title>은재 ♡ 지애 결혼합니다</title>
 
     <!-- css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/font.css">
     <link rel="stylesheet" href="/css/setting.css">
@@ -15,8 +18,14 @@
 
     <!-- js -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=848d866b74fd9ea1ab8405d1b24d056e">
+    </script>
     <script src="/js/main.js"></script>
 </head>
+
 <body>
     <main>
         <div class="title">
@@ -28,8 +37,8 @@
             </h3>
         </div>
         <div class="main_img">
-            <img src="/img/img_01.jpg" alt="main img"> 
-            <!-- <img src="https://via.placeholder.com/430x700" alt=""> -->
+            <!-- <img src="/img/img_01.jpg" alt="main img">  -->
+            <img src="https://via.placeholder.com/430x700" alt="">
         </div>
         <div class="name_conts">
             <h2>
@@ -43,10 +52,10 @@
             <img src="img/flower_icon.png" alt="img">
         </div>
         <div class="invatation">
-            <h3>
+            <h3 class="eng_title">
                 INVITATION
             </h3>
-            <h2>
+            <h2 class="ko_title">
                 초대합니다
             </h2>
             <div>
@@ -64,14 +73,16 @@
             </div>
         </div>
         <div class="parents_contact">
-            <img src="img/img_02.jpg" alt="img">
-            <!-- <img src="https://via.placeholder.com/430x300" alt=""> -->
+            <!-- <img src="img/img_02.jpg" alt="img"> -->
+            <img src="https://via.placeholder.com/430x300" alt="">
             <div class="parents_conts">
                 <div class="men">
-                    임채열 	&#183; 유향숙 <span>의</span> <span>아들</span> 전은재 <a href="tel:010-2921-6107"><i class="fa-solid fa-phone tel"></i><a>
+                    임채열 &#183; 유향숙 <span>의</span> <span>아들</span> 전은재 <a href="tel:010-2921-6107"><i
+                            class="fa-solid fa-phone tel"></i><a>
                 </div>
                 <div class="woman">
-                    이 &#160; 섭  &#183; 이경자 <span>의</span> <span class="sw">딸</span> 이지애 <a href="tel:010-2528-4995"><i class="fa-solid fa-phone tel"></i><a>
+                    이 &#160; 섭 &#183; 이경자 <span>의</span> <span class="sw">딸</span> 이지애 <a href="tel:010-2528-4995"><i
+                            class="fa-solid fa-phone tel"></i><a>
                 </div>
             </div>
         </div>
@@ -102,7 +113,7 @@
                             <td>6</td>
                         </tr>
                         <tr>
-                            <td>7</td>
+                            <td class="red">7</td>
                             <td>8</td>
                             <td>9</td>
                             <td>10</td>
@@ -111,16 +122,20 @@
                             <td>13</td>
                         </tr>
                         <tr>
-                            <td>14</td>
+                            <td class="red">14</td>
                             <td>15</td>
                             <td>16</td>
                             <td>17</td>
                             <td>18</td>
                             <td>19</td>
-                            <td>20</td>
+                            <td>
+                                <div class="point">
+                                    <div>20</div>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <td>21</td>
+                            <td class="red">21</td>
                             <td>22</td>
                             <td>23</td>
                             <td>24</td>
@@ -129,7 +144,7 @@
                             <td>27</td>
                         </tr>
                         <tr>
-                            <td>28</td>
+                            <td class="red">28</td>
                             <td>29</td>
                             <td>30</td>
                             <td>31</td>
@@ -140,9 +155,75 @@
                     </tbody>
                 </table>
             </div>
+            <div class="day_ment">
+                <p>은재 <span class="heart">♥</span> 지애의 결혼식이 <span class="d-day">일</span> 남았습니다. </p>
+            </div>
+        </div>
+        <div class="gallery_box">
+            <h3 class="eng_title">
+                GALLERY
+            </h3>
+            <h2 class="ko_title">
+                갤러리
+            </h2>
+            <!-- Swiper -->
+            <div class="swiper mySwiper swiper_box">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <!-- <img src="img/img_01.jpg" alt=""> -->
+                        <img src="https://via.placeholder.com/430x300" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="img/img_02.jpg" alt=""> -->
+                        <img src="https://via.placeholder.com/430x300" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="img/img_01.jpg" alt=""> -->
+                        <img src="https://via.placeholder.com/430x300" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="img/img_02.jpg" alt=""> -->
+                        <img src="https://via.placeholder.com/430x300" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="img/img_01.jpg" alt=""> -->
+                        <img src="https://via.placeholder.com/430x300" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="img/img_02.jpg" alt=""> -->
+                        <img src="https://via.placeholder.com/430x300" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="img/img_01.jpg" alt=""> -->
+                        <img src="https://via.placeholder.com/430x300" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="img/img_02.jpg" alt=""> -->
+                        <img src="https://via.placeholder.com/430x300" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- <img src="img/img_01.jpg" alt=""> -->
+                        <img src="https://via.placeholder.com/430x300" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="map_wrap">
+            <h3 class="eng_title">
+                LOCATION
+            </h3>
+            <h2 class="ko_title">
+                오시는 길
+            </h2>
+            <div id="map" style="width:430px;height:240px;"></div>
+            <div class="map_btn">
+                <ul>
+                    <li><a href="http://kko.to/3EkaSbfkHH">카카오맵</a></li>
+                    <li><a href="https://naver.me/52hn0kMH">네이버맵</a></li>
+                </ul>
+            </div>
         </div>
     </main>
 </body>
 </html>
-
-

@@ -1,11 +1,11 @@
 main {
     padding: 60px 0;
-    background-image: url(/img/bg.jpg);
+    background-image: url(/img/bg02.png);
 }
 
 .title {
     text-align: center;
-    font-family: 'GmarketSans',sans-serif;
+    font-family: 'GmarketSans', sans-serif;
 }
 
 .title h2 {
@@ -18,6 +18,7 @@ main {
 
 .main_img {
     margin-top: 30px;
+    padding: 0 20px;
 }
 
 .name_conts {
@@ -31,32 +32,16 @@ main {
 
 .name_conts p {
     margin-top: 20px;
-    font-family: 'TheJamsilThin';
 }
 
 .icon_img01 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .invatation {
     margin-top: 30px;
     text-align: center;
-}
-
-.invatation h3 {
-    font-family: 'GmarketSans',sans-serif;
-    /* font-weight: 300;  */
-    color: #bea4a4;
-    letter-spacing: 3px;
-}
-
-.invatation h2 {
-    font-size: 1.125rem;
-    margin-top: 10px;
-    letter-spacing: 2px;
-    font-family: 'GmarketSans',sans-serif;
-    /* font-weight: 300; */
 }
 
 .invatation div {
@@ -67,15 +52,17 @@ main {
 .parents_contact {
     margin-top: 60px;
     text-align: center;
-    background: rgba(140,117,93,.07);
+    padding: 0 20px;
 }
 
 .parents_conts {
-    padding: 20px 0;
+    padding: 40px 0;
     font-size: 1.125rem;
+    margin-bottom: 40px;
 }
 
-.men span, .woman span {
+.men span,
+.woman span {
     font-size: 12.8px;
     color: #8a857f;
     display: inline-block;
@@ -97,14 +84,95 @@ main {
 
 .calendar_box {
     text-align: center;
-    margin-top: 60px;
+    padding: 30px 0;
+    background-color: #f6f5f5;
+    background-image: url(/img/bg02.png);
+    color: #544f4f;
 }
 
 .calendar_box h2 {
-    font-size: 24px;
-
+    font-size: 1.125rem;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    font-family: 'GmarketSans', sans-serif;
 }
 
 .calendar_box h3 {
-    margin-top: 10px;
+    margin-top: 14px;
+    letter-spacing: 3px;
 }
+
+.calendar {
+    padding-top: 40px;
+}
+
+.calendar table {
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    border: 1px solid #e8dfdf;
+    border-left: 0;
+    border-right: 0;
+}
+
+.calendar table thead tr {}
+
+.calendar table thead tr td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 0;
+}
+
+.calendar table tbody tr td {
+    vertical-align: middle;
+    position: relative;
+}
+
+.point {
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top: -22.5px;
+}
+
+.point>div {
+    padding: 15px 0;
+    border-radius: 50%;
+    background-color: #ffd1d1;
+}
+
+.day_ment {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.day_ment p {
+    font-size: 1rem;
+}
+
+.heart,.d-day {
+    color: #f38989;
+}
+
+.gallery_box {
+    padding: 60px 0;
+    position: relative;
+}
+
+.swiper_box {
+    padding-top: 40px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #f38989;
+}
+
+.map_wrap {
+    padding: 60px 0;
+}
+
+#map {
+    margin-top: 40px;
+}
+
