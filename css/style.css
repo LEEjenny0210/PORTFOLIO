@@ -35,8 +35,8 @@ main {
 }
 
 .icon_img01 {
-    text-align: center;
-    margin-top: 80px;
+    width: 24px;
+    margin: 80px auto 0 auto;
 }
 
 .invatation {
@@ -151,7 +151,8 @@ main {
     font-size: 1rem;
 }
 
-.heart,.d-day {
+.heart,
+.d-day {
     color: #f38989;
 }
 
@@ -176,3 +177,94 @@ main {
     margin-top: 40px;
 }
 
+.comming {
+    margin-top: 80px;
+    padding: 0 20px;
+}
+
+.car {
+    margin-top: 40px;
+}
+
+.bus h3,
+.car h3 {
+    font-size: 1rem;
+    color: #c28e79;
+}
+
+.bus p,
+.car p {
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 0.9563rem;
+}
+
+.car p span {
+    display: inline-block;
+    margin-top: 0.875rem;
+    margin-top: 5px;
+}
+
+.icon_img02 img {
+    width: 24px;
+    margin: 0 auto;
+    display: block;
+}
+
+.icon_img02 h2 {
+    text-align: center;
+    color: #89757a;
+    font-size: 1.125rem;
+    margin-top: 20px;
+}
+
+.bank {
+    width: 300px;
+    margin: 80px auto 0 auto;
+}
+
+.bank_num div {
+    font-size: 1rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: rgba(234, 228, 227, 0.64);
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+.detail_num {}
+
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flex li {
+    padding: 10px;
+}
